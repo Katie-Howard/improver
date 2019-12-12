@@ -43,7 +43,7 @@ run_cli = acc.run_cli(CLI)
 
 def test_basic(tmp_path):
     """Test basic snow falling level calculation"""
-    kgo_dir = acc.kgo_root() / "sleet/basic"
+    kgo_dir = acc.kgo_root() / "sleet-probability/basic"
     kgo_path = kgo_dir / "kgo.nc"
     output_path = tmp_path / "output.nc"
     half_input_path = kgo_dir / "half_prob_snow_falling_level.nc"
