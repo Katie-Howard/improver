@@ -40,7 +40,7 @@ def process(
     *,
     nbhood_radius: float = 20000.0,
     textural_threshold: float = 0.01,
-    diagnostic_threshold: float = 0.75,
+    diagnostic_threshold: float = 0.6875,
     model_id_attr: str = None,
 ):
 
