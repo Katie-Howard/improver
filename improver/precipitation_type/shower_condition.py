@@ -83,6 +83,7 @@ class ShowerCondition(BasePlugin):
         }
         self.cubes = []
         self.tree = None
+# changes above
 
     def _calculate_shower_condition(self, shape):
         """Calculate deterministic "precipitation is showery" field"""
