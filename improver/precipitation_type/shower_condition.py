@@ -64,7 +64,7 @@ class ShowerCondition(BasePlugin):
         """
         self.conditions_uk = {
             "texture_of_low_and_medium_type_cloud_area_fraction": {
-                "diagnostic_threshold": 0.1,
+                "diagnostic_threshold": 0.05,
                 "probability_threshold": 0.5,
                 "operator": "above",
             },
