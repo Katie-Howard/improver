@@ -104,7 +104,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.08, 1)],
+            "diagnostic_thresholds": [(0.09, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_precipitation": {
@@ -124,7 +124,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.08, 1)],
+            "diagnostic_thresholds": [(0.09, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_snow_shower": {
@@ -214,7 +214,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.08, 1)],
+            "diagnostic_thresholds": [(0.09, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_snow_shower_in_vicinity": {
@@ -258,7 +258,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.08, 1)],
+            "diagnostic_thresholds": [(0.09, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_rain_shower_in_vicinity": {
@@ -288,7 +288,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.08, 1)],
+            "diagnostic_thresholds": [(0.09, 1)],
             "diagnostic_conditions": ["above"],
         },
         "drizzle_mist": {
