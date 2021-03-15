@@ -39,7 +39,7 @@ def process(
     cube: cli.inputcube,
     *,
     nbhood_radius: float = 20000.0,
-    textural_threshold: float = 0.09,
+    textural_threshold: float = 0.06,
 # just to know this is the right one to change.
     diagnostic_threshold: float = 0.8125,
     model_id_attr: str = None,
