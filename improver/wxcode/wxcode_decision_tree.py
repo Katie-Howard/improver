@@ -104,10 +104,8 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.05, 1)],
-#            "diagnostic_thresholds": [(0.06, 1)],
+            "diagnostic_thresholds": [(0.06, 1)],
             "diagnostic_conditions": ["above"],
-#
         },
         "heavy_precipitation": {
             "succeed": "heavy_precipitation_cloud",
@@ -126,11 +124,9 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.05, 1)],
-#            "diagnostic_thresholds": [(0.06, 1)],
+            "diagnostic_thresholds": [(0.06, 1)],
             "diagnostic_conditions": ["above"],
         },
-#
         "heavy_snow_shower": {
             "succeed": 26,
             "fail": "heavy_rain_or_sleet_shower",
@@ -218,8 +214,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.05, 1)],
-#            "diagnostic_thresholds": [(0.06, 1)],
+            "diagnostic_thresholds": [(0.06, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_snow_shower_in_vicinity": {
@@ -263,8 +258,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.05, 1)],
-#            "diagnostic_thresholds": [(0.06, 1)],
+            "diagnostic_thresholds": [(0.06, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_rain_shower_in_vicinity": {
@@ -294,8 +288,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.05, 1)],
-#            "diagnostic_thresholds": [(0.06, 1)],
+            "diagnostic_thresholds": [(0.06, 1)],
             "diagnostic_conditions": ["above"],
         },
         "drizzle_mist": {
