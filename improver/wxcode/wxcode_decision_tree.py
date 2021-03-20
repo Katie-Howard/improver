@@ -104,7 +104,7 @@ def wxcode_decision_tree():
             "threshold_condition": ">=",
             "condition_combination": "",
             "diagnostic_fields": [TEXTURE_PROB_ABOVE],
-            "diagnostic_thresholds": [(0.07 1)],
+            "diagnostic_thresholds": [(0.07, 1)],
             "diagnostic_conditions": ["above"],
         },
         "heavy_precipitation": {
